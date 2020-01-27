@@ -2,7 +2,12 @@
   height: 100vh;
   width: 100%;
 }
-
+.story-top {
+  position: absolute;
+  top: 2%;
+  z-index: 5;
+  width: 100%;
+}
 .story-cont {
   display: flex;
   align-items: center;

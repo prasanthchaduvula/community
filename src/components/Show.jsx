@@ -30,13 +30,14 @@ class Show extends React.Component {
     return (
       <>
         <div className="story-card" id={`rrr${value}`}>
-          <div className="story-bar-wrapper">
-            <p className="story-bar"></p>
-          </div>
-
-          <div className="story-profile">
-            <img className="story-profile-pic" src={story[value].dp} alt="" />
-            <p className="story-profile-name">{story[value].name}</p>
+          <div className="story-top">
+            <div className="story-bar-wrapper">
+              <p className="story-bar"></p>
+            </div>
+            <div className="story-profile">
+              <img className="story-profile-pic" src={story[value].dp} alt="" />
+              <p className="story-profile-name">{story[value].name}</p>
+            </div>
           </div>
           <div className="story-cont">
             {story[value].body ? (
