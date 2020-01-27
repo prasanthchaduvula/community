@@ -13,12 +13,7 @@ class Communities extends React.Component {
         { logo: 'altcampus/ravi_story.JPG ', name: 'Family' },
         { logo: 'altcampus/music.jpeg', name: 'Music' },
         { logo: 'altcampus/suraj_story.JPG ', name: 'Friends' },
-        { logo: 'altcampus/cse.jpeg', name: 'Cse branch' },
-        { logo: '/altcampus/altcampus.jpg', name: 'Altcampus' },
-        { logo: '/upsc/upsc.jpeg', name: 'Upsc' },
-        { logo: '/travel/travel.JPG', name: 'Travel' },
-        { logo: 'altcampus/prasanth_story.JPG', name: 'My village' },
-        { logo: 'altcampus/ravi_story.JPG ', name: 'Family' }
+        { logo: 'altcampus/cse.jpeg', name: 'Cse branch' }
       ]
     };
   }
